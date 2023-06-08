@@ -7,11 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        handrawn: ['Permanent Marker', 'cursive']
       },
+      backgroundImage: {
+        'pattern': 'url(https://res.cloudinary.com/dpybiqjss/image/upload/v1680821052/Hair%20Salon/Untitled_design_21_pqgygf.svg)',
+        'hero-chair': 'url(https://res.cloudinary.com/dpybiqjss/image/upload/v1680812521/Hair%20Salon/Untitled_design_26_n4y9ul.png)',
+      }
     },
   },
   plugins: [],
