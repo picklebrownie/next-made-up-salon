@@ -23,7 +23,7 @@ export default function Header() {
         <div className="mx-auto px-4">
           <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
             <nav className="flex items-center justify-between lg:justify-start" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5 pr-6">
+              <a href="/" className="-m-1.5 p-1.5 pr-6">
                 <span className="sr-only">Made Up Salon</span>
                 <div className="relative h-20 w-20">
                   <Image
