@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,15 +5,27 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     extend: {
       fontFamily: {
         handrawn: ['Permanent Marker', 'cursive']
       },
       backgroundImage: {
-        'pattern': 'url(https://res.cloudinary.com/dpybiqjss/image/upload/v1680821052/Hair%20Salon/Untitled_design_21_pqgygf.svg)',
-        'hero-chair': 'url(https://res.cloudinary.com/dpybiqjss/image/upload/v1680812521/Hair%20Salon/Untitled_design_26_n4y9ul.png)',
+        'pattern': 'url(/bg-pattern.svg)',
       }
     },
   },
   plugins: [],
+  safelist:[
+    "from-yellow-200",
+    "to-yellow-400",
+    "to-yellow-500",
+    "text-yellow-950",
+    "text-yellow-900",
+    "from-emerald-200",
+    "to-emerald-400",
+    "to-emerald-500",
+    "text-emerald-950",
+    "text-emerald-900",
+  ]
 }

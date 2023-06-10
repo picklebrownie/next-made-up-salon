@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { socials } from "../../utils/socials";
+import Image from 'next/image'
 
 
 const navigation = [
@@ -24,11 +25,15 @@ export default function Header() {
             <nav className="flex items-center justify-between lg:justify-start" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5 pr-6">
                 <span className="sr-only">Made Up Salon</span>
-                <img
-                  alt="Made Up Salon"
-                  className="h-20 w-auto"
-                  src="/logo.svg"
-                />
+                <div className="relative h-20 w-20">
+                  <Image
+                    fill
+                    sizes="100vw"
+                    alt="Made Up Salon"
+                    className=""
+                    src="/logo.svg"
+                  />
+                </div>
               </a>
               <button
                 type="button"
@@ -54,11 +59,15 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Made Up Salon</span>
-                <img
-                  className="h-16 w-auto"
-                  src="https://res.cloudinary.com/dpybiqjss/image/upload/v1680825408/ade_Up_Salon_os92kw.png"
-                  alt=""
-                />
+                <div className="relative h-20 w-64">
+                  <Image
+                    fill
+                    sizes="100vw"
+                    className="h-16 w-auto"
+                    src="/made-up-salon-full-logo.png"
+                    alt=""
+                  />
+                </div>
               </a>
               <button
                 type="button"

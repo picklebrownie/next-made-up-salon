@@ -2,6 +2,7 @@ import { ServiceCardLeft, ServiceCardRight, ServiceHero, ServicesList } from "..
 import { services } from "../utils/services"
 import { ContactCallout } from "../Components/Contact";
 import { people } from "../utils/people"
+import Image from "next/image";
 
 export default function Services(){
     const sortedServices = [...services.slice(8), ...services.slice(0, 5)]
@@ -12,10 +13,12 @@ export default function Services(){
 
         <ServiceHero />
 
-        <img 
-            src="
-            https://res.cloudinary.com/dpybiqjss/image/upload/v1680846477/Hair%20Salon/Untitled_design_32_ro8tgd.png"
+        <Image 
+            height={300}
+            width={500}
+            src="/break-foliage-up.png"
             className='max-h-60 max-w-full px-8 mx-auto'
+            alt=""
         />
 
             <div className="gap-y-8 grid justify-items-center">

@@ -1,8 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image'
 
 const adText = 'Now offering Bridal consultations!'
 const adButtonText = 'Learn More'
-const heroImageUrl = 'https://res.cloudinary.com/dpybiqjss/image/upload/e_blur:720,o_20/v1680812521/Hair%20Salon/Untitled_design_26_n4y9ul.png'
 const heroButtonText= 'Book Now'
 const heroSecondaryButtonText = 'More Services'
 const addButtonLink = '/services'
@@ -27,10 +27,12 @@ const HeroTitle = () => {
 export function MobileHero(){
     return (
         <div className="relative isolate overflow-hidden pt-14 lg:hidden">
-        <img
-          src={heroImageUrl}
+        <Image
+          fill
+          sizes="100vw"
+          src="/hero-home.png"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover lg:hidden"
+          className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20 blur-sm"
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -155,9 +157,11 @@ export function DesktopHero(){
           </div>
         </div>
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <Image
+            fill
+            sizes='100vw'
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="https://res.cloudinary.com/dpybiqjss/image/upload/v1680812521/Hair%20Salon/Untitled_design_26_n4y9ul.png"
+            src="/hero-home.png"
             alt=""
           />
         </div>

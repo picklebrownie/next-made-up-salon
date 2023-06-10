@@ -1,6 +1,8 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import type { Person, People } from '../../utils/people'
+import Image from 'next/image'
 
-export function ContactCardSimple({ person }) {
+export function ContactCardSimple({ person }: { person: Person }) {
     return (
         <div className={`backdrop-blur-lg shadow-slate/60 shadow-lg rounded-2xl bg-gradient-to-br from-${person.color}-200 to-${person.color}-400 p-10 max-w-md transform transition duration-500 hover:scale-110 hover:from-${person.color}-200 hover:to-${person.color}-500`}>
           <div className="flex flex-row justify-between items-center">
@@ -31,13 +33,15 @@ export function ContactCardSimple({ person }) {
     );
 }
 
-export function ContactCallout({ people }) {
+export function ContactCallout({ people }: { people: People }) {
     return (
         <div className="bg-white py-8 bg-gradient-to-b from-white to-slate-200">
-            <img 
-                src="
-                https://res.cloudinary.com/dpybiqjss/image/upload/v1680846477/Hair%20Salon/Untitled_design_32_ro8tgd.png"
-                className='max-h-60 max-w-full px-8 mx-auto'
+            <Image
+              height={100}
+              width={540}
+              src="/break-foliage-up.png"
+              className='max-h-60 px-8 max-w-full mx-auto'
+              alt="A line break in the form of golden foliage pointing upwards"
             />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-3xl mb-12 lg:mb-20 font-semibold tracking-tight text-slate-900 text-center drop-shadow-md">Revitalize your hair - book your appointment today!</h2>
@@ -57,15 +61,20 @@ export function ContactCallout({ people }) {
           </div>
         </div>
 
-        <img 
-                src="https://res.cloudinary.com/dpybiqjss/image/upload/v1680846556/Hair%20Salon/Untitled_design_33_yyldgd.png"
-                className='max-h-60 mt-4 px-8 max-w-full mx-auto'
-            />
+        <div>
+          <Image 
+              height={100}
+              width={540}
+              src="/break-foliage-down.png"
+              className='max-h-60 mt-4 px-8 max-w-full mx-auto'
+              alt="A line break in the form of golden foliage pointing upwards"
+          />
+        </div>
       </div>
     )
 }
 
-export function ContactSection({ people }) {
+export function ContactSection({ people }: { people: People }) {
   return (
     <div className="relative isolate bg-pattern pt-28">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">

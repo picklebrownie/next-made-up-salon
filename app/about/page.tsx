@@ -1,16 +1,21 @@
 import { people } from "../utils/people"
 import { AboutPersonListItemCard } from "../Components/About"
 import { ContactCallout } from "../Components/Contact"
+import Image from "next/image"
 
 export default function About(){
     return ( 
         <>
         <div className="relative isolate pt-14 ">
-        <img
-          src="https://res.cloudinary.com/dpybiqjss/image/upload/e_blur:320,o_35/v1681050109/Hair%20Salon/Untitled_design_39_rscsrc.png"
-          alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-        />
+          <div className="absolute inset-0 -z-10 h-full w-full">
+            <Image
+              fill
+              sizes="100vw"
+              src="/hero-about.png"
+              alt=""
+              className="h-full w-full object-cover opacity-20"
+            />
+          </div>
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
