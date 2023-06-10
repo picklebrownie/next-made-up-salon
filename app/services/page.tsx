@@ -18,7 +18,7 @@ export default function Services(){
             width={500}
             src="/break-foliage-up.png"
             className='max-h-60 max-w-full px-8 mx-auto'
-            alt=""
+            alt="A line break in the form of golden foliage pointing upwards"
         />
 
             <div className="gap-y-8 grid justify-items-center">
