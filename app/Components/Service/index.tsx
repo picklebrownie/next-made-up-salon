@@ -41,7 +41,7 @@ export function ServiceCardRight({ service }: { service: Service }) {
     return (
         <div className="group relative isolate grid grid-cols-12 grid-rows-4 min-h-full min-w-full">
             <div className="col-start-8 col-span-5 row-start-1 row-span-4 h-80 relative min-h-full">
-            <div className="absolute inset-0 rounded-r-xl ring-1 ring-inset ring-gray-900/10">
+            <div className="absolute inset-0 rounded-l-xl ring-1 ring-inset ring-gray-900/10">
                     <Image
                         fill
                         sizes="100vw"
