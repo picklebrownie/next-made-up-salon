@@ -6,7 +6,7 @@ export type Service = {
     imageAlt: '',
 }
 
-export const services = [
+export const services: Service[] = [
     {
         name: 'Balayage',
         id: 1,

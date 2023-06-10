@@ -77,6 +77,7 @@ export function ServicesSectionHome({services} : {services: Service[]}) {
                         sizes="100vw"
                         src="/break-comb.png"
                         className='contain opacity-70'
+                        alt=""
                     />
                 </div>
             </div>
