@@ -63,9 +63,9 @@ export default function About(){
             <p className='max-w-5xl mt-6 text-lg px-4 sm:px-8 leading-8 text-gray-600 indent-12 justify-self-center'>
             Our story began in the heart of a small town where two sisters, Lily and Rose, had a vision to create a welcoming and inclusive space for women to feel beautiful and confident. Armed with a passion for hair and a love for their community, they set out to make their dream a reality. </p>
             <p className='max-w-5xl mt-6 text-lg px-4 sm:px-8 leading-8 text-gray-600 indent-12 justify-self-center'>
-            As young girls, Lily and Rose had always been fascinated by hair styling. They would often spend hours experimenting with different hairstyles on each other and their friends. They would create elaborate updos, braids, and curls, and take pride in the compliments they received on their work. As they grew older, their passion for hair only intensified, and they began to take classes and attend workshops to perfect their craft. It was during this time that they realized they wanted to make a career out of their love for hair styling and open their own salon. Through hard work and dedication, Lily and Rose opened their salon doors, and it wasn't long before the word spread about their exceptional styling and personalized attention to every client. </p>
+            As young girls, Lily and Rose had always been fascinated by hair styling. They would often spend hours experimenting with different hairstyles on each other and their friends. They would create elaborate updos, braids, and curls, and take pride in the compliments they received on their work. As they grew older, their passion for hair only intensified, and they began to take classes and attend workshops to perfect their craft. It was during this time that they realized they wanted to make a career out of their love for hair styling and open their own salon. Through hard work and dedication, Lily and Rose opened their salon doors, and it wasn&apos;t long before the word spread about their exceptional styling and personalized attention to every client. </p>
             <p className='max-w-5xl mt-6 text-lg px-4 sm:px-8 leading-8 text-gray-600 indent-12 justify-self-center'>
-            Today, their salon is a beloved fixture in the town, where women come to be pampered, feel uplifted, and leave with a renewed sense of confidence. From the beginning, our mission has been to bring out the unique beauty in every woman, and we're proud to continue that tradition with every client who walks through our doors.
+            Today, their salon is a beloved fixture in the town, where women come to be pampered, feel uplifted, and leave with a renewed sense of confidence. From the beginning, our mission has been to bring out the unique beauty in every woman, and we&apos;re proud to continue that tradition with every client who walks through our doors.
             </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function About(){
                 Meet our Experts
             </h3>
             <p className='max-w-3xl mt-6 text-lg px-4 sm:px-8 leading-8 text-gray-600 text-center justify-self-center'>
-                Lily and Rose make a dynamic duo, complementing each other's strengths to bring out the best in every client's hair. With unparalleled skills and dedication to our craft, Lily and Rose are committed to making every client look and feel their absolute best. </p>
+                Lily and Rose make a dynamic duo, complementing each other&apos;s strengths to bring out the best in every client&apos;s hair. With unparalleled skills and dedication to our craft, Lily and Rose are committed to making every client look and feel their absolute best. </p>
             <div className="mx-auto max-w-7xl px-4 lg:px-8">
                 <ul
                 role="list"

@@ -150,7 +150,7 @@ export function ServicesList({services}: {services: Service[]}) {
                 <h2 className="text-4xl font-handrawn tracking-wide text-yellow-600 sm:text-5xl drop-shadow-lg">Treat yourself</h2>
                 <div className="text-lg tracking-wide italic text-gray-700">and your bridal party!</div>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                We're excited to announce that our salon now offers <span className="font-bold text-gray-800">bridal hair and makeup services</span> for the entire bridal party! Whether you're looking for a classic updo or beachy waves, we've got you covered. And for your bridesmaids, we offer a range of styles to suit any hair type or preference. Our makeup artists will ensure that everyone looks and feels their best, with a look that complements your wedding theme and personal style.
+                We&apos;re excited to announce that our salon now offers <span className="font-bold text-gray-800">bridal hair and makeup services</span> for the entire bridal party! Whether you&apos;re looking for a classic updo or beachy waves, we&apos;ve got you covered. And for your bridesmaids, we offer a range of styles to suit any hair type or preference. Our makeup artists will ensure that everyone looks and feels their best, with a look that complements your wedding theme and personal style.
                 </p>
             </div>
         </div>      

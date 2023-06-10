@@ -33,7 +33,7 @@ export function AboutTeamSectionHome({ people }: { people: Array<Person> }) {
         </div>
         <div className='min-w-full px-8 grid justify-items-center xl:bg-gradient-to-t xl:from-transparent xl:to-orange-50'>
             <p className=' max-w-7xl mt-6 text-lg leading-8 text-gray-600 text-center justify-self-center'>
-            With years of training and hands-on experience, Lily's expertise lies in precision cuts, while Rose's specialty is in creating stunning color transformations. Together, they make a dynamic duo, complementing each other's strengths to bring out the best in every client's hair. With unparalleled skills and dedication to our craft, Lily and Rose are committed to making every client look and feel their absolute best.
+            With years of training and hands-on experience, Lily&apos;s expertise lies in precision cuts, while Rose&apos;s specialty is in creating stunning color transformations. Together, they make a dynamic duo, complementing each other&apos;s strengths to bring out the best in every client&apos;s hair. With unparalleled skills and dedication to our craft, Lily and Rose are committed to making every client look and feel their absolute best.
             </p>
         </div>
 
