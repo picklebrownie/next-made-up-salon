@@ -21,7 +21,7 @@ export const people = [
       color: 'emerald',
       imageUrl:
         '/headshot-lily.png',
-      bio: 'With over a decade of experience in the industry, Lily is a master of precision cuts and skilled in creating modern and classic styles alike. She has a talent for bringing out the best in every client\'s hair and loves to stay up-to-date with the latest hair trends and techniques. Lily\'s dedication to her craft shines through in every cut she delivers, making her a trusted stylist for her many loyal clients..',
+      bio: 'With over a decade of experience in the industry, Lily is a master of precision cuts and skilled in creating modern and classic styles alike. She has a talent for bringing out the best in every client\'s hair and loves to stay up-to-date with the latest hair trends and techniques. Lily\'s dedication to her craft shines through in every cut she delivers, making her a trusted stylist for her many loyal clients.',
     },
     {
       name: 'Rose',
@@ -32,7 +32,7 @@ export const people = [
       color: 'yellow',
       imageUrl:
         '/headshot-rose.png',
-      bio: 'Rose is a color specialist with a keen eye for creating stunning color transformations. She has a passion for experimenting with different shades and techniques, from subtle highlights to bold, fashion-forward hues. With years of experience under her belt, Rose has honed her skills to deliver flawless color results every time. Her commitment to her clients and love for her craft make her an invaluable member of the Lily and Rose team..',
+      bio: 'Rose is a color specialist with a keen eye for creating stunning color transformations. She has a passion for experimenting with different shades and techniques, from subtle highlights to bold, fashion-forward hues. With years of experience under her belt, Rose has honed her skills to deliver flawless color results every time. Her commitment to her clients and love for her craft make her an invaluable member of the Lily and Rose team.',
     },
   ]
 

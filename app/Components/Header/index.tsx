@@ -32,6 +32,7 @@ export default function Header() {
                     alt="Made Up Salon"
                     className=""
                     src="/logo.svg"
+                    priority
                   />
                 </div>
               </a>
@@ -66,6 +67,7 @@ export default function Header() {
                     className="h-16 w-auto"
                     src="/made-up-salon-full-logo.png"
                     alt=""
+                    loading='lazy'
                   />
                 </div>
               </a>

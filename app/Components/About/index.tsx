@@ -6,7 +6,7 @@ export function AboutPersonListItemCard({person}: {person:Person}) {
     return (
         <li key={person.name} className="flex flex-col sm:flex-row gap-6 p-3 bg-pattern border rounded-2xl shadow-lg shadow-slate-200">
             <div className="relative p-2 sm:p-0 sm:w-52 h-96 flex-none rounded-2xl">
-                <Image fill sizes="100vw" className="aspect-[4/3] object-cover" src={person.imageUrl} alt="" />
+                <Image fill sizes="50vw" className="aspect-[4/3] object-cover rounded-2xl" src={person.imageUrl} alt="" loading='lazy'/>
             </div>
             <div className="flex-auto">
                     <h3 className="text-lg font-bold leading-8 tracking-tight text-gray-900">{person.name}</h3>
@@ -28,6 +28,7 @@ export function AboutTeamSectionHome({ people }: { people: Array<Person> }) {
                     className=""
                     src="/made-up-salon-full-logo.png"
                     alt=""
+                    loading='lazy'
                 /> 
             </div>
         </div>

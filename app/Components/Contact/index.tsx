@@ -42,6 +42,7 @@ export function ContactCallout({ people }: { people: People }) {
               src="/break-foliage-up.png"
               className='max-h-60 px-8 max-w-full mx-auto'
               alt="A line break in the form of golden foliage pointing upwards"
+              loading='lazy'
             />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-3xl mb-12 lg:mb-20 font-semibold tracking-tight text-slate-900 text-center drop-shadow-md">Revitalize your hair - book your appointment today!</h2>
@@ -68,6 +69,7 @@ export function ContactCallout({ people }: { people: People }) {
               src="/break-foliage-down.png"
               className='max-h-60 mt-4 px-8 max-w-full mx-auto'
               alt="A line break in the form of golden foliage pointing upwards"
+              loading='lazy'
           />
         </div>
       </div>

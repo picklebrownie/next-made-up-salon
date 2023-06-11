@@ -15,6 +15,7 @@ export function ServiceCardLeft({ service }: { service: Service }) {
                         src={service.imageSrc}
                         alt=""
                         className="rounded-r-xl bg-gray-50 object-cover"
+                        loading="lazy"
                     />
                 </div>
                 <div className="absolute inset-0 rounded-r-xl ring-1 ring-inset ring-gray-900/10" />
@@ -48,6 +49,7 @@ export function ServiceCardRight({ service }: { service: Service }) {
                         src={service.imageSrc}
                         alt=""
                         className="rounded-l-xl bg-gray-50 object-cover"
+                        loading='lazy'
                     />
                 </div>
                 <div className="absolute inset-0 rounded-l-xl ring-1 ring-inset ring-gray-900/10" />
@@ -78,6 +80,7 @@ export function ServicesSectionHome({services} : {services: Service[]}) {
                         src="/break-comb.png"
                         className='contain opacity-70'
                         alt=""
+                        loading='lazy'
                     />
                 </div>
             </div>
@@ -119,6 +122,7 @@ export function ServicesList({services}: {services: Service[]}) {
                     src={service.imageSrc}
                     alt={service.imageAlt}
                     className="h-full w-full object-cover object-center sm:h-full sm:w-full"
+                    loading='lazy'
                   />
                 </div>
                 <div className="flex flex-1 flex-col space-y-2 p-4 text-center bg-pattern">
@@ -145,6 +149,7 @@ export function ServicesList({services}: {services: Service[]}) {
             src="/hero-services.png"
             alt=""
             className="absolute top-4 -right-32 md:top-24 lg:right-8 xl:right-32 -z-10 h-full object-scale-down opacity-10"
+            priority
             />
             <div className="mx-auto max-w-4xl text-center">
                 <h2 className="text-4xl font-handrawn tracking-wide text-yellow-600 sm:text-5xl drop-shadow-lg">Treat yourself</h2>

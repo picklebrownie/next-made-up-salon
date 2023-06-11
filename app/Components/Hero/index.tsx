@@ -28,11 +28,12 @@ export function MobileHero(){
     return (
         <div className="relative isolate overflow-hidden pt-14 lg:hidden">
         <Image
-          fill
-          sizes="100vw"
+          height={250}
+          width={500}
           src="/hero-home.png"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20 blur-sm"
+          priority
         />
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -156,13 +157,14 @@ export function DesktopHero(){
             </div>
           </div>
         </div>
-        <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div className="absolute bg-gray-50 lg:inset-y-0 lg:right-0 lg:w-1/2">
           <Image
-            fill
-            sizes='100vw'
-            className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
+          height={250}
+          width={500}
+            className="object-cover aspect-auto h-full w-full"
             src="/hero-home.png"
             alt=""
+            priority
           />
         </div>
       </div>
