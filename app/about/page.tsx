@@ -14,6 +14,7 @@ export default function About(){
               src="/hero-about.png"
               alt=""
               className="h-full w-full object-cover opacity-20"
+              priority
             />
           </div>
         <div
